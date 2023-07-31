@@ -6,15 +6,22 @@ body {
 }
 
 .container {
-  max-width: 600px;
-  margin: 0 auto;
+ 
+
+  max-width: 400px;
+  margin: 100px auto;
   padding: 20px;
-  text-align: center;
+
+  background-color:  #EFE1D1;
+  border-radius: 5px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
 }
 
+
+
 h1 {
-  font-size: 24px;
-  margin-bottom: 20px;
+  text-align: center;
+  color: #0B666A;
 }
 
 button {
@@ -30,9 +37,10 @@ button {
 .quote {
   font-size: 20px;
   margin-top: 20px;
+  color: #dc3545;
 }
 
-.clear-btn {
+.botaolimpar {
   background-color: #dc3545;
 }
 

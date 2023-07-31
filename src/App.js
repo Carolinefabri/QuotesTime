@@ -25,10 +25,10 @@ class App extends Component {
 
   render() {
     return (
-      <div>
+      <div className="container">
         <h1>Random Quote Generator</h1>
         <button onClick={this.generateQuote}>Generate Quote</button>
-        <button onClick={this.clearQuote}>Clear Quote</button>
+        <button className="botaolimpar" onClick={this.clearQuote}>Clear Quote</button>
         <p>{this.state.quote}</p>
       </div>
     );

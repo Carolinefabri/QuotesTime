@@ -31,7 +31,14 @@ class App extends Component {
         <button onClick={this.generateQuote}>Generate Quote</button>
         <button className="botaolimpar" onClick={this.clearQuote}>Clear Quote</button>  </div>
         <h3>{this.state.quote}</h3>
-      </div>
+      
+
+        {/* Footer */}
+        <div className="footer">
+          Developed by Caroline Fabri 2023
+        </div>
+        </div>
+      
     
     );
   }

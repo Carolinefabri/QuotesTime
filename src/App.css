@@ -49,6 +49,14 @@ h3 {
   color: #331D2C;
 }
 
+.footer {
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: 10px;
+}
+
+
 /* Add media queries for responsiveness */
 @media only screen and (max-width: 480px) {
   h1 {

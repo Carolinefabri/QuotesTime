@@ -25,21 +25,19 @@ class App extends Component {
 
   render() {
     return (
-      <div className="container">
-        <h1>Chuck Norris Quotes</h1>
-        <div className="button-container">
-        <button onClick={this.generateQuote}>Generate Quote</button>
-        <button className="botaolimpar" onClick={this.clearQuote}>Clear Quote</button>  </div>
-        <h3>{this.state.quote}</h3>
-      
-
-        {/* Footer */}
+      <div>
+        <div className="container">
+          <h1>Chuck Norris Quotes</h1>
+          <div className="button-container">
+            <button onClick={this.generateQuote}>Generate Quote</button>
+            <button className="botaolimpar" onClick={this.clearQuote}>Clear Quote</button>
+          </div>
+          <h3>{this.state.quote}</h3>
+        </div>
         <div className="footer">
           Developed by Caroline Fabri 2023
         </div>
-        </div>
-      
-    
+      </div>
     );
   }
 }

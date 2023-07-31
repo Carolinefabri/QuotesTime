@@ -1,4 +1,6 @@
-# Getting Started with Create React App
+# Getting Started with Create React App - Chuck Norris Quotes
+
+The React app "Random Quote Generator" is a simple application that generates random Chuck Norris quotes from an external API. It was developed to practice using React components, consuming APIs, managing state with setState, and styling with CSS. The project includes buttons to generate and clear quotes, making it a showcase of front-end development skills with React. It can be shared on GitHub for collaboration and learning with other developers.
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 

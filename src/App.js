@@ -26,11 +26,13 @@ class App extends Component {
   render() {
     return (
       <div className="container">
-        <h1>Random Quote Generator</h1>
+        <h1>Chuck Norris Quotes</h1>
+        <div className="button-container">
         <button onClick={this.generateQuote}>Generate Quote</button>
-        <button className="botaolimpar" onClick={this.clearQuote}>Clear Quote</button>
-        <p>{this.state.quote}</p>
+        <button className="botaolimpar" onClick={this.clearQuote}>Clear Quote</button>  </div>
+        <h3>{this.state.quote}</h3>
       </div>
+    
     );
   }
 }

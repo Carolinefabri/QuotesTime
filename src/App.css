@@ -1,53 +1,56 @@
 body {
   font-family: Arial, sans-serif;
-  background-color: #f0f0f0;
+  background-image: url('/public/k.jpg'); 
+  background-size: cover; 
+  background-repeat: no-repeat; 
   margin: 0;
   padding: 0;
 }
 
 .container {
- 
-
   max-width: 400px;
   margin: 100px auto;
   padding: 20px;
-
-  background-color:  #EFE1D1;
+  background-color: #A78295;
   border-radius: 5px;
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
 }
 
-
-
 h1 {
   text-align: center;
-  color: #0B666A;
+  color: #331D2C;
 }
 
 button {
   padding: 10px 20px;
   font-size: 16px;
-  background-color: #A78295;
+  background-color: #EFE1D1;
   color: #331D2C;
   border: none;
   cursor: pointer;
   margin-right: 10px;
+  font-weight: bold; /* Adicionando negrito aos botões */
+}
+.button-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
 }
 
-.quote {
+h3 {
   font-size: 20px;
   margin-top: 20px;
-  color: #dc3545;
-}
-
-.botaolimpar {
-  background-color: #dc3545;
+  color: #331D2C;
 }
 
 /* Add media queries for responsiveness */
 @media only screen and (max-width: 480px) {
   h1 {
     font-size: 20px;
+  }
+
+  body {
+    background-image: url('/public/k.jpg');
   }
 
   button {
